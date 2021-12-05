@@ -1,0 +1,14 @@
+temp = dec2bin('puneetMiglani')%out in char;
+temp = temp - '0';
+name_in_bin = reshape(temp,1,[]);
+
+%modulation
+
+pulse_name = 2*name_in_bin-1
+res = 100;
+
+for i = 1:length(pulse) 
+%for bit = pules_name    
+    if bit == 0
+        mod_pulse = [mod_pulse zeros(1,)] 
+        
